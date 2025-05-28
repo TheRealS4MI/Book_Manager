@@ -2,7 +2,7 @@ from Livre import Livre
 from Utilisateur import Utilisateur
 
 class Bibliotheque:
-    def _init_(self):
+    def __init_(self):
         self.livres = []
         self.utilisateurs = []
 

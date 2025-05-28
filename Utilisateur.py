@@ -1,5 +1,5 @@
 class Utilisateur:
-    def _init_(self, nom, identifiant):
+    def __init_(self, nom, identifiant):
         self.nom = nom
         self.identifiant = identifiant
         self.livres_empruntes = []
